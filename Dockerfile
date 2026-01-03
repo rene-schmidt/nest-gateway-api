@@ -10,7 +10,6 @@ RUN npm install
 # Source + Config
 COPY tsconfig*.json ./
 COPY nest-cli.json ./
-COPY prisma ./prisma
 COPY src ./src
 
 # Build
